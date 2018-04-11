@@ -152,7 +152,7 @@ void MazeScene::deleteWalls()
 
 void MazeScene::setGoal()
 {
-    QPixmap *goalpix = new QPixmap(":/images/goal.png");
+    QPixmap *goalpix = new QPixmap(":/goal.png");
     QPixmap pic = goalpix->scaled(TILE_SIZE-1, TILE_SIZE-1);
     delete goalpix;
     goal = new QGraphicsPixmapItem(pic);

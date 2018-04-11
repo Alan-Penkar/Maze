@@ -1,5 +1,5 @@
-<RCC>
-    <qresource prefix="/images">
-        <file>goal.png</file>
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file alias="goal.png">img/goal.png</file>
     </qresource>
 </RCC>

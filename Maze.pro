@@ -24,22 +24,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    scene.cpp \
-    globals.cpp \
-    maze.cpp \
-    ball.cpp
+        src/main.cpp \
+        src/mainwindow.cpp \
+    src/scene.cpp \
+    src/globals.cpp \
+    src/maze.cpp \
+    src/ball.cpp
 
 HEADERS += \
-        mainwindow.h \
-    scene.h \
-    globals.h \
-    maze.h \
-    ball.h
+        src/mainwindow.h \
+    src/scene.h \
+    src/globals.h \
+    src/maze.h \
+    src/ball.h
 
 FORMS += \
-        mainwindow.ui
+        forms/mainwindow.ui
 
 
 RESOURCES += \
